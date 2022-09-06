@@ -1,3 +1,11 @@
+ion-content{
+  --background: rgb(168, 19, 19);
+}
+.produto{
+  color:bisque;
+  font-weight: 600;
+  font-size: 36px;
+}
 .conteudo{
   font-size: 2rem;
   padding: 32px;
@@ -11,8 +19,35 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  ion-button{
+    --background: #fff;
+    --background-activated: rgb(178, 195, 233);
+    --color: #000;
+    font-weight: 900;
+  }
+  input{
+    width: 50px;
+    text-align: center;
+    border-radius: 6px;
+    border: 0;
+  }
 }
 .resultado{
   margin-top: 64px;
   font-weight: 700;
+  color: #fff;
+}
+h1{
+  background: #fff;
+  padding: 32px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 800;
+  color: rgb(168, 19, 19);
+  text-align: center;
+  margin-top: 38px;
+}
+ion-fab-button{
+  --background: rgb(175, 51, 51);
+  --background-activated: rgb(209, 132, 132);
 }
